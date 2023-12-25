@@ -1,0 +1,26 @@
+.grid-container {
+    display: flex;
+    width: 600px;
+    height: 600px;
+    border: 2px;
+    border-style: solid;
+
+    flex: auto;
+    
+}
+
+.column {
+    display: flex;
+    flex: auto;
+    flex-direction: column;
+}
+
+.square {
+
+    display: flex;
+    flex: auto;
+    border: 1px;
+    border-color: black;
+    border-style: solid;
+    
+}
